@@ -2,6 +2,7 @@
 name = "camweb"
 description = "Simple webapp to see and upload images from a cam or any device with http post"
 licence = "MIT"
+repository = "https://github.com/Westixy/camweb"
 version = "0.1.0"
 edition = "2021"
 publish = false

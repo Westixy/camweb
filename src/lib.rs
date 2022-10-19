@@ -8,7 +8,7 @@ fn index() -> &'static str {
 
 #[shuttle_service::main]
 async fn rocket() -> shuttle_service::ShuttleRocket {
-    let rocket = rocket::build().mount("/hello", routes![index]);
+    let rocket = rocket::build().mount("/", routes![index]);
 
     Ok(rocket)
 }

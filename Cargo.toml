@@ -1,0 +1,13 @@
+[package]
+name = "camweb"
+description = "Simple webapp to see and upload images from a cam or any device with http post"
+licence = "MIT"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+
+[dependencies]
+shuttle-service = { version = "0.7.0", features = ["web-rocket"] }
+rocket = "0.5.0-rc.2"

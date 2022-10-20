@@ -1,0 +1,47 @@
+:root {
+  --dark1: #272A2D;
+  --grey1: #373F47;
+  --blue1: #6C91C2;
+  --blue2: #1F3F6A;
+  --white1: #e7e9f5;
+  --white2: #C3C9E9;
+
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  background: linear-gradient(to bottom right, var(--dark1), var(--blue2));
+  font-size: 1.5rem;
+}
+
+main {
+  color: var(--white1);
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.logo {
+  width: 20em;
+  max-width: 80vw;
+}
+
+
+h1+.subtitle {
+  display: block;
+  margin-top: -1em;
+}
+
+a:visited,
+a,
+a:hover {
+  color: var(--blue1);
+}

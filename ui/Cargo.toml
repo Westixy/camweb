@@ -1,0 +1,10 @@
+[package]
+name = "camweb-ui"
+version = "0.1.0"
+edition = "2021"
+description = "User interface for CamWeb app"
+readme = "README.md"
+license = "MIT"
+
+[dependencies]
+yew = "0.19"

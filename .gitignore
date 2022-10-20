@@ -1,2 +1,4 @@
-/target
-/Cargo.lock
+target
+.env
+Secrets.toml
+/server/public
